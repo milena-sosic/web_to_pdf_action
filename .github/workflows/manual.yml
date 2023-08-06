@@ -29,7 +29,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: html to pdf
-      uses: misaelnieto/web_to_pdf_action@master
+      uses: milena-sosic/web_to_pdf_action@master
       with:
         webPageURL: https://milena-sosic.github.io/cv/
         outputFile: ./output/resume.pdf
